@@ -1,0 +1,2634 @@
+{
+ "generated_from": "2025-06-28 23:00:00",
+ "forecast_start": "2025-06-29 00:00:00",
+ "data_is_synthetic_demo": true,
+ "coordinate_note": "DEMONSTRATION (fictional coordinates, not real stations)",
+ "stations": {
+  "S01": {
+   "station_id": "S01",
+   "location_name": "Central Plaza Hub",
+   "latitude": 13.0827,
+   "longitude": 80.2707,
+   "station_type": "retail",
+   "chargers": 12,
+   "avg_duration_h": 1.42,
+   "current_utilization": 0.43,
+   "historical_mean_utilization": 0.304,
+   "predicted_sessions_24h": 70,
+   "predicted_energy_kwh_24h": 501.0,
+   "peak_sessions": 6.3,
+   "peak_hour": "4 PM",
+   "peak_window": "11 AM \u2013 7 PM",
+   "peak_occupancy": 5.55,
+   "peak_utilization": 0.462,
+   "mean_utilization_24h": 0.225,
+   "congestion": "LOW",
+   "congestion_level": 0,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 94,
+    "historical_avg_sessions_per_day": 61.7,
+    "score": 0.492,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.3,
+     "kwh": 2.2,
+     "utilization": 0.045
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.2,
+     "kwh": 2.2,
+     "utilization": 0.019
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.2,
+     "kwh": 2.2,
+     "utilization": 0.019
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.3,
+     "kwh": 2.3,
+     "utilization": 0.021
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.4,
+     "kwh": 4.0,
+     "utilization": 0.026
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.7,
+     "kwh": 10.8,
+     "utilization": 0.041
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 1.1,
+     "kwh": 12.4,
+     "utilization": 0.071
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 1.7,
+     "kwh": 11.3,
+     "utilization": 0.11
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 2.2,
+     "kwh": 14.6,
+     "utilization": 0.15
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 3.2,
+     "kwh": 22.8,
+     "utilization": 0.208
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 4.1,
+     "kwh": 32.2,
+     "utilization": 0.283
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 4.7,
+     "kwh": 36.2,
+     "utilization": 0.341
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 4.9,
+     "kwh": 36.4,
+     "utilization": 0.368
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 5.8,
+     "kwh": 35.0,
+     "utilization": 0.411
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 5.7,
+     "kwh": 36.0,
+     "utilization": 0.441
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 5.7,
+     "kwh": 38.9,
+     "utilization": 0.439
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 6.3,
+     "kwh": 38.4,
+     "utilization": 0.462
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 5.2,
+     "kwh": 38.3,
+     "utilization": 0.435
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 6.3,
+     "kwh": 34.3,
+     "utilization": 0.443
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 4.1,
+     "kwh": 33.2,
+     "utilization": 0.392
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 3.2,
+     "kwh": 26.6,
+     "utilization": 0.277
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 2.3,
+     "kwh": 17.9,
+     "utilization": 0.207
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 1.0,
+     "kwh": 9.8,
+     "utilization": 0.12
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.6,
+     "kwh": 3.0,
+     "utilization": 0.059
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 6.3,
+    "current_chargers": 12,
+    "estimated_additional_chargers": 0,
+    "message": "Current capacity appears sufficient for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Evening peak in forecast window",
+    "High recent demand vs station history"
+   ]
+  },
+  "S02": {
+   "station_id": "S02",
+   "location_name": "Tech Park North",
+   "latitude": 13.1067,
+   "longitude": 80.2206,
+   "station_type": "workplace",
+   "chargers": 16,
+   "avg_duration_h": 6.39,
+   "current_utilization": 0.006,
+   "historical_mean_utilization": 0.45,
+   "predicted_sessions_24h": 20,
+   "predicted_energy_kwh_24h": 538.6,
+   "peak_sessions": 3.0,
+   "peak_hour": "10 AM",
+   "peak_window": "8 AM \u2013 11 AM",
+   "peak_occupancy": 12.74,
+   "peak_utilization": 0.796,
+   "mean_utilization_24h": 0.299,
+   "congestion": "MEDIUM",
+   "congestion_level": 1,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 16,
+    "historical_avg_sessions_per_day": 27.2,
+    "score": 0.544,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.1,
+     "kwh": 2.4,
+     "utilization": 0.003
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.1,
+     "kwh": 2.4,
+     "utilization": 0.009
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.1,
+     "kwh": 5.9,
+     "utilization": 0.016
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.1,
+     "kwh": 2.5,
+     "utilization": 0.024
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.2,
+     "kwh": 4.2,
+     "utilization": 0.034
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.5,
+     "kwh": 15.9,
+     "utilization": 0.055
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 0.9,
+     "kwh": 37.7,
+     "utilization": 0.094
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 1.6,
+     "kwh": 41.5,
+     "utilization": 0.164
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 2.3,
+     "kwh": 53.2,
+     "utilization": 0.276
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 2.8,
+     "kwh": 66.8,
+     "utilization": 0.426
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 3.0,
+     "kwh": 76.9,
+     "utilization": 0.596
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 2.1,
+     "kwh": 60.9,
+     "utilization": 0.732
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 1.0,
+     "kwh": 41.4,
+     "utilization": 0.784
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 2.0,
+     "kwh": 41.7,
+     "utilization": 0.796
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 0.6,
+     "kwh": 18.6,
+     "utilization": 0.751
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 0.8,
+     "kwh": 19.4,
+     "utilization": 0.632
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 0.5,
+     "kwh": 12.5,
+     "utilization": 0.493
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 0.5,
+     "kwh": 10.0,
+     "utilization": 0.371
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 0.2,
+     "kwh": 5.0,
+     "utilization": 0.302
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 0.1,
+     "kwh": 4.0,
+     "utilization": 0.213
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 0.1,
+     "kwh": 3.6,
+     "utilization": 0.15
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 0.1,
+     "kwh": 3.8,
+     "utilization": 0.114
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 0.2,
+     "kwh": 5.8,
+     "utilization": 0.085
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.1,
+     "kwh": 2.4,
+     "utilization": 0.063
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 3.0,
+    "current_chargers": 16,
+    "estimated_additional_chargers": 0,
+    "message": "Current capacity appears sufficient for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Morning peak in forecast window",
+    "Increasing recent demand (+5% vs previous week)",
+    "High recent demand vs station history"
+   ]
+  },
+  "S03": {
+   "station_id": "S03",
+   "location_name": "Riverside Residency",
+   "latitude": 13.0569,
+   "longitude": 80.2425,
+   "station_type": "residential",
+   "chargers": 8,
+   "avg_duration_h": 4.85,
+   "current_utilization": 1.014,
+   "historical_mean_utilization": 0.38,
+   "predicted_sessions_24h": 17,
+   "predicted_energy_kwh_24h": 366.7,
+   "peak_sessions": 2.6,
+   "peak_hour": "5 PM",
+   "peak_window": "5 PM \u2013 6 PM",
+   "peak_occupancy": 9.34,
+   "peak_utilization": 1.167,
+   "mean_utilization_24h": 0.415,
+   "congestion": "VERY HIGH",
+   "congestion_level": 3,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 15,
+    "historical_avg_sessions_per_day": 15.0,
+    "score": 0.447,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.862
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.673
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.149
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.143
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.2,
+     "kwh": 3.8,
+     "utilization": 0.051
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.2,
+     "kwh": 4.5,
+     "utilization": 0.064
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 0.3,
+     "kwh": 14.9,
+     "utilization": 0.09
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 0.7,
+     "kwh": 10.0,
+     "utilization": 0.143
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 0.9,
+     "kwh": 10.6,
+     "utilization": 0.223
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 0.2,
+     "kwh": 4.3,
+     "utilization": 0.267
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 0.2,
+     "kwh": 4.4,
+     "utilization": 0.26
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 0.3,
+     "kwh": 10.0,
+     "utilization": 0.241
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 0.2,
+     "kwh": 4.4,
+     "utilization": 0.185
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 0.2,
+     "kwh": 4.4,
+     "utilization": 0.115
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 0.2,
+     "kwh": 4.6,
+     "utilization": 0.119
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 0.6,
+     "kwh": 13.1,
+     "utilization": 0.147
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 1.0,
+     "kwh": 23.3,
+     "utilization": 0.212
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 2.6,
+     "kwh": 47.0,
+     "utilization": 0.415
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 1.6,
+     "kwh": 45.6,
+     "utilization": 0.652
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 2.2,
+     "kwh": 45.8,
+     "utilization": 0.854
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 2.3,
+     "kwh": 47.4,
+     "utilization": 1.05
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 2.0,
+     "kwh": 45.7,
+     "utilization": 1.167
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 0.5,
+     "kwh": 9.8,
+     "utilization": 1.022
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.3,
+     "kwh": 4.1,
+     "utilization": 0.863
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 2.6,
+    "current_chargers": 8,
+    "estimated_additional_chargers": 4,
+    "message": "Additional charging capacity may be considered for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Evening peak in forecast window",
+    "Decreasing recent demand (-27% vs previous week)",
+    "Predicted peak utilization near/above capacity"
+   ],
+   "hotspot_id": "H1"
+  },
+  "S04": {
+   "station_id": "S04",
+   "location_name": "Airport Road Stop",
+   "latitude": 13.0012,
+   "longitude": 80.2565,
+   "station_type": "retail",
+   "chargers": 10,
+   "avg_duration_h": 1.4,
+   "current_utilization": 0.219,
+   "historical_mean_utilization": 0.317,
+   "predicted_sessions_24h": 70,
+   "predicted_energy_kwh_24h": 439.3,
+   "peak_sessions": 6.8,
+   "peak_hour": "6 PM",
+   "peak_window": "12 PM \u2013 7 PM",
+   "peak_occupancy": 5.99,
+   "peak_utilization": 0.599,
+   "mean_utilization_24h": 0.266,
+   "congestion": "MEDIUM",
+   "congestion_level": 1,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 63,
+    "historical_avg_sessions_per_day": 54.2,
+    "score": 0.403,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.2,
+     "kwh": 2.1,
+     "utilization": 0.092
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.2,
+     "kwh": 2.2,
+     "utilization": 0.022
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.3,
+     "kwh": 2.2,
+     "utilization": 0.027
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.3,
+     "kwh": 2.2,
+     "utilization": 0.029
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.3,
+     "kwh": 4.0,
+     "utilization": 0.029
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.7,
+     "kwh": 6.4,
+     "utilization": 0.048
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 1.2,
+     "kwh": 7.7,
+     "utilization": 0.085
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 1.7,
+     "kwh": 11.3,
+     "utilization": 0.131
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 1.5,
+     "kwh": 8.7,
+     "utilization": 0.144
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 2.5,
+     "kwh": 20.6,
+     "utilization": 0.184
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 3.4,
+     "kwh": 35.1,
+     "utilization": 0.266
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 4.4,
+     "kwh": 26.3,
+     "utilization": 0.352
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 5.6,
+     "kwh": 34.4,
+     "utilization": 0.455
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 6.2,
+     "kwh": 34.3,
+     "utilization": 0.533
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 6.2,
+     "kwh": 34.7,
+     "utilization": 0.554
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 5.9,
+     "kwh": 35.6,
+     "utilization": 0.543
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 5.5,
+     "kwh": 23.2,
+     "utilization": 0.513
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 6.5,
+     "kwh": 38.3,
+     "utilization": 0.543
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 6.8,
+     "kwh": 34.2,
+     "utilization": 0.599
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 5.1,
+     "kwh": 31.0,
+     "utilization": 0.525
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 2.6,
+     "kwh": 16.5,
+     "utilization": 0.332
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 1.7,
+     "kwh": 13.6,
+     "utilization": 0.188
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 0.9,
+     "kwh": 6.6,
+     "utilization": 0.113
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.8,
+     "kwh": 8.4,
+     "utilization": 0.076
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 6.8,
+    "current_chargers": 10,
+    "estimated_additional_chargers": 0,
+    "message": "Current capacity appears sufficient for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Evening peak in forecast window",
+    "Increasing recent demand (+10% vs previous week)",
+    "High recent demand vs station history"
+   ]
+  },
+  "S05": {
+   "station_id": "S05",
+   "location_name": "Industrial Estate",
+   "latitude": 13.1215,
+   "longitude": 80.287,
+   "station_type": "workplace",
+   "chargers": 14,
+   "avg_duration_h": 6.43,
+   "current_utilization": 0.168,
+   "historical_mean_utilization": 0.473,
+   "predicted_sessions_24h": 25,
+   "predicted_energy_kwh_24h": 649.4,
+   "peak_sessions": 3.4,
+   "peak_hour": "10 AM",
+   "peak_window": "9 AM \u2013 11 AM",
+   "peak_occupancy": 16.03,
+   "peak_utilization": 1.145,
+   "mean_utilization_24h": 0.442,
+   "congestion": "VERY HIGH",
+   "congestion_level": 3,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 21,
+    "historical_avg_sessions_per_day": 24.8,
+    "score": 0.413,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.1,
+     "kwh": 2.4,
+     "utilization": 0.073
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.2,
+     "kwh": 6.2,
+     "utilization": 0.081
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.1,
+     "kwh": 2.4,
+     "utilization": 0.048
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.1,
+     "kwh": 2.5,
+     "utilization": 0.022
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.3,
+     "kwh": 11.5,
+     "utilization": 0.035
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.6,
+     "kwh": 22.2,
+     "utilization": 0.068
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 0.7,
+     "kwh": 28.7,
+     "utilization": 0.112
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 2.0,
+     "kwh": 54.0,
+     "utilization": 0.201
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 2.3,
+     "kwh": 72.5,
+     "utilization": 0.347
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 3.3,
+     "kwh": 97.4,
+     "utilization": 0.541
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 3.4,
+     "kwh": 97.9,
+     "utilization": 0.767
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 2.4,
+     "kwh": 70.1,
+     "utilization": 0.943
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 2.7,
+     "kwh": 57.4,
+     "utilization": 1.081
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 2.0,
+     "kwh": 37.8,
+     "utilization": 1.145
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 1.5,
+     "kwh": 23.1,
+     "utilization": 1.113
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 2.0,
+     "kwh": 22.7,
+     "utilization": 1.031
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 0.3,
+     "kwh": 8.9,
+     "utilization": 0.869
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 0.3,
+     "kwh": 5.1,
+     "utilization": 0.685
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 0.3,
+     "kwh": 5.0,
+     "utilization": 0.518
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 0.1,
+     "kwh": 4.0,
+     "utilization": 0.368
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 0.3,
+     "kwh": 8.6,
+     "utilization": 0.262
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 0.1,
+     "kwh": 3.8,
+     "utilization": 0.152
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 0.1,
+     "kwh": 2.6,
+     "utilization": 0.086
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.1,
+     "kwh": 2.4,
+     "utilization": 0.071
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 3.4,
+    "current_chargers": 14,
+    "estimated_additional_chargers": 7,
+    "message": "Additional charging capacity may be considered for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Morning peak in forecast window",
+    "Increasing recent demand (+25% vs previous week)",
+    "High recent demand vs station history",
+    "Predicted peak utilization near/above capacity"
+   ],
+   "hotspot_id": "H2"
+  },
+  "S06": {
+   "station_id": "S06",
+   "location_name": "Lakeview Apartments",
+   "latitude": 13.0333,
+   "longitude": 80.21,
+   "station_type": "residential",
+   "chargers": 6,
+   "avg_duration_h": 4.79,
+   "current_utilization": 0.591,
+   "historical_mean_utilization": 0.302,
+   "predicted_sessions_24h": 11,
+   "predicted_energy_kwh_24h": 274.8,
+   "peak_sessions": 1.4,
+   "peak_hour": "4 PM",
+   "peak_window": "4 PM \u2013 6 PM",
+   "peak_occupancy": 4.86,
+   "peak_utilization": 0.81,
+   "mean_utilization_24h": 0.335,
+   "congestion": "HIGH",
+   "congestion_level": 2,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 7,
+    "historical_avg_sessions_per_day": 9.1,
+    "score": 0.44,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.34
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.353
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.295
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.1,
+     "kwh": 2.3,
+     "utilization": 0.049
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.2,
+     "kwh": 3.3,
+     "utilization": 0.068
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.3,
+     "kwh": 4.6,
+     "utilization": 0.092
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 0.3,
+     "kwh": 9.5,
+     "utilization": 0.13
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 0.3,
+     "kwh": 8.4,
+     "utilization": 0.17
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 0.2,
+     "kwh": 4.0,
+     "utilization": 0.192
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 0.3,
+     "kwh": 9.8,
+     "utilization": 0.204
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 0.2,
+     "kwh": 4.3,
+     "utilization": 0.195
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 0.2,
+     "kwh": 4.3,
+     "utilization": 0.167
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 0.5,
+     "kwh": 11.5,
+     "utilization": 0.174
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 0.2,
+     "kwh": 4.3,
+     "utilization": 0.202
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 0.2,
+     "kwh": 4.4,
+     "utilization": 0.192
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 0.2,
+     "kwh": 4.6,
+     "utilization": 0.201
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 1.4,
+     "kwh": 25.4,
+     "utilization": 0.299
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 1.2,
+     "kwh": 36.6,
+     "utilization": 0.443
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 0.7,
+     "kwh": 23.8,
+     "utilization": 0.562
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 1.2,
+     "kwh": 29.0,
+     "utilization": 0.679
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 1.3,
+     "kwh": 23.3,
+     "utilization": 0.81
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 1.1,
+     "kwh": 27.0,
+     "utilization": 0.786
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 0.6,
+     "kwh": 21.5,
+     "utilization": 0.75
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.3,
+     "kwh": 6.4,
+     "utilization": 0.694
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 1.4,
+    "current_chargers": 6,
+    "estimated_additional_chargers": 1,
+    "message": "Additional charging capacity may be considered for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Evening peak in forecast window",
+    "Decreasing recent demand (-8% vs previous week)",
+    "High recent demand vs station history",
+    "Predicted peak utilization near/above capacity"
+   ],
+   "hotspot_id": "H1"
+  },
+  "S07": {
+   "station_id": "S07",
+   "location_name": "Market Street",
+   "latitude": 13.071,
+   "longitude": 80.26,
+   "station_type": "retail",
+   "chargers": 8,
+   "avg_duration_h": 1.39,
+   "current_utilization": 0.479,
+   "historical_mean_utilization": 0.224,
+   "predicted_sessions_24h": 44,
+   "predicted_energy_kwh_24h": 363.4,
+   "peak_sessions": 4.4,
+   "peak_hour": "4 PM",
+   "peak_window": "2 PM \u2013 7 PM",
+   "peak_occupancy": 3.82,
+   "peak_utilization": 0.477,
+   "mean_utilization_24h": 0.205,
+   "congestion": "LOW",
+   "congestion_level": 0,
+   "anomaly": {
+    "flag": true,
+    "date": "2025-06-28",
+    "observed_sessions": 122,
+    "historical_avg_sessions_per_day": 30.2,
+    "score": 0.757,
+    "message": "Unusual demand pattern detected."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.056
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.3,
+     "kwh": 6.6,
+     "utilization": 0.023
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.3,
+     "kwh": 3.1,
+     "utilization": 0.032
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.2,
+     "kwh": 2.3,
+     "utilization": 0.026
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.2,
+     "kwh": 3.3,
+     "utilization": 0.023
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.3,
+     "kwh": 5.5,
+     "utilization": 0.032
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 1.0,
+     "kwh": 7.5,
+     "utilization": 0.076
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 1.2,
+     "kwh": 7.6,
+     "utilization": 0.123
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 1.3,
+     "kwh": 8.5,
+     "utilization": 0.143
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 2.0,
+     "kwh": 10.1,
+     "utilization": 0.193
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 2.4,
+     "kwh": 17.3,
+     "utilization": 0.248
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 2.7,
+     "kwh": 31.5,
+     "utilization": 0.284
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 2.8,
+     "kwh": 22.4,
+     "utilization": 0.306
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 2.5,
+     "kwh": 28.5,
+     "utilization": 0.295
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 3.4,
+     "kwh": 24.5,
+     "utilization": 0.335
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 3.6,
+     "kwh": 19.3,
+     "utilization": 0.39
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 4.4,
+     "kwh": 36.1,
+     "utilization": 0.449
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 4.2,
+     "kwh": 31.4,
+     "utilization": 0.477
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 3.3,
+     "kwh": 30.1,
+     "utilization": 0.412
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 3.2,
+     "kwh": 27.4,
+     "utilization": 0.36
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 2.3,
+     "kwh": 20.4,
+     "utilization": 0.298
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 1.0,
+     "kwh": 8.6,
+     "utilization": 0.176
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 0.7,
+     "kwh": 7.3,
+     "utilization": 0.097
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.4,
+     "kwh": 2.0,
+     "utilization": 0.06
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 4.4,
+    "current_chargers": 8,
+    "estimated_additional_chargers": 0,
+    "message": "Current capacity appears sufficient for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Evening peak in forecast window",
+    "Increasing recent demand (+35% vs previous week)",
+    "High recent demand vs station history"
+   ]
+  },
+  "S08": {
+   "station_id": "S08",
+   "location_name": "University Gate",
+   "latitude": 13.045,
+   "longitude": 80.295,
+   "station_type": "workplace",
+   "chargers": 10,
+   "avg_duration_h": 6.3,
+   "current_utilization": 0.0,
+   "historical_mean_utilization": 0.341,
+   "predicted_sessions_24h": 11,
+   "predicted_energy_kwh_24h": 405.2,
+   "peak_sessions": 1.6,
+   "peak_hour": "10 AM",
+   "peak_window": "10 AM \u2013 11 AM",
+   "peak_occupancy": 6.94,
+   "peak_utilization": 0.694,
+   "mean_utilization_24h": 0.267,
+   "congestion": "MEDIUM",
+   "congestion_level": 1,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 5,
+    "historical_avg_sessions_per_day": 13.0,
+    "score": 0.614,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.1,
+     "kwh": 7.6,
+     "utilization": 0.007
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.017
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.025
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.2,
+     "kwh": 7.3,
+     "utilization": 0.037
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.3,
+     "kwh": 12.0,
+     "utilization": 0.058
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.3,
+     "kwh": 5.0,
+     "utilization": 0.085
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 0.7,
+     "kwh": 20.3,
+     "utilization": 0.123
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 1.0,
+     "kwh": 28.4,
+     "utilization": 0.198
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 1.1,
+     "kwh": 35.7,
+     "utilization": 0.293
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 1.2,
+     "kwh": 32.7,
+     "utilization": 0.392
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 1.6,
+     "kwh": 44.8,
+     "utilization": 0.507
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 1.2,
+     "kwh": 37.3,
+     "utilization": 0.619
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 1.3,
+     "kwh": 52.7,
+     "utilization": 0.686
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 0.7,
+     "kwh": 40.5,
+     "utilization": 0.694
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 0.4,
+     "kwh": 26.1,
+     "utilization": 0.641
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 0.4,
+     "kwh": 18.2,
+     "utilization": 0.564
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 0.2,
+     "kwh": 7.4,
+     "utilization": 0.444
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 0.1,
+     "kwh": 4.7,
+     "utilization": 0.33
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 0.1,
+     "kwh": 4.2,
+     "utilization": 0.219
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 0.1,
+     "kwh": 3.7,
+     "utilization": 0.147
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 0.1,
+     "kwh": 3.3,
+     "utilization": 0.111
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 0.1,
+     "kwh": 3.9,
+     "utilization": 0.085
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 0.1,
+     "kwh": 2.6,
+     "utilization": 0.071
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.061
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 1.6,
+    "current_chargers": 10,
+    "estimated_additional_chargers": 0,
+    "message": "Current capacity appears sufficient for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Morning peak in forecast window",
+    "Decreasing recent demand (-9% vs previous week)",
+    "High recent demand vs station history"
+   ]
+  },
+  "S09": {
+   "station_id": "S09",
+   "location_name": "Highway Junction",
+   "latitude": 13.14,
+   "longitude": 80.23,
+   "station_type": "retail",
+   "chargers": 12,
+   "avg_duration_h": 1.42,
+   "current_utilization": 0.317,
+   "historical_mean_utilization": 0.313,
+   "predicted_sessions_24h": 71,
+   "predicted_energy_kwh_24h": 461.0,
+   "peak_sessions": 6.5,
+   "peak_hour": "5 PM",
+   "peak_window": "12 PM \u2013 8 PM",
+   "peak_occupancy": 5.81,
+   "peak_utilization": 0.485,
+   "mean_utilization_24h": 0.226,
+   "congestion": "LOW",
+   "congestion_level": 0,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 70,
+    "historical_avg_sessions_per_day": 63.8,
+    "score": 0.386,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.3,
+     "kwh": 2.2,
+     "utilization": 0.011
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.3,
+     "kwh": 2.3,
+     "utilization": 0.023
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.3,
+     "kwh": 2.2,
+     "utilization": 0.022
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.3,
+     "kwh": 6.4,
+     "utilization": 0.02
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.6,
+     "kwh": 8.5,
+     "utilization": 0.036
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.5,
+     "kwh": 4.9,
+     "utilization": 0.042
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 0.9,
+     "kwh": 5.8,
+     "utilization": 0.055
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 1.0,
+     "kwh": 7.9,
+     "utilization": 0.074
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 2.3,
+     "kwh": 20.0,
+     "utilization": 0.13
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 3.3,
+     "kwh": 26.0,
+     "utilization": 0.218
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 3.3,
+     "kwh": 29.3,
+     "utilization": 0.255
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 4.5,
+     "kwh": 27.5,
+     "utilization": 0.304
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 5.8,
+     "kwh": 34.1,
+     "utilization": 0.4
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 5.6,
+     "kwh": 33.5,
+     "utilization": 0.436
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 6.0,
+     "kwh": 37.6,
+     "utilization": 0.445
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 6.1,
+     "kwh": 36.8,
+     "utilization": 0.462
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 6.2,
+     "kwh": 35.4,
+     "utilization": 0.469
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 6.5,
+     "kwh": 36.6,
+     "utilization": 0.485
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 6.0,
+     "kwh": 33.1,
+     "utilization": 0.476
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 4.9,
+     "kwh": 30.4,
+     "utilization": 0.415
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 3.3,
+     "kwh": 21.7,
+     "utilization": 0.31
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 1.7,
+     "kwh": 8.5,
+     "utilization": 0.186
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 1.0,
+     "kwh": 8.2,
+     "utilization": 0.099
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.6,
+     "kwh": 2.3,
+     "utilization": 0.057
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 6.5,
+    "current_chargers": 12,
+    "estimated_additional_chargers": 0,
+    "message": "Current capacity appears sufficient for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Evening peak in forecast window",
+    "High recent demand vs station history"
+   ]
+  },
+  "S10": {
+   "station_id": "S10",
+   "location_name": "Garden Colony",
+   "latitude": 13.09,
+   "longitude": 80.305,
+   "station_type": "residential",
+   "chargers": 6,
+   "avg_duration_h": 4.85,
+   "current_utilization": 0.972,
+   "historical_mean_utilization": 0.304,
+   "predicted_sessions_24h": 8,
+   "predicted_energy_kwh_24h": 201.1,
+   "peak_sessions": 1.3,
+   "peak_hour": "8 PM",
+   "peak_window": "7 PM \u2013 9 PM",
+   "peak_occupancy": 5.72,
+   "peak_utilization": 0.954,
+   "mean_utilization_24h": 0.297,
+   "congestion": "HIGH",
+   "congestion_level": 2,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 10,
+    "historical_avg_sessions_per_day": 9.0,
+    "score": 0.559,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.954
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.1,
+     "kwh": 2.2,
+     "utilization": 0.657
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.2,
+     "kwh": 6.9,
+     "utilization": 0.485
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.1,
+     "kwh": 2.3,
+     "utilization": 0.2
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.1,
+     "kwh": 3.0,
+     "utilization": 0.075
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.2,
+     "kwh": 3.7,
+     "utilization": 0.088
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 0.2,
+     "kwh": 3.6,
+     "utilization": 0.102
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 0.4,
+     "kwh": 13.0,
+     "utilization": 0.124
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 0.1,
+     "kwh": 3.0,
+     "utilization": 0.156
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 0.1,
+     "kwh": 3.0,
+     "utilization": 0.157
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 0.1,
+     "kwh": 3.1,
+     "utilization": 0.148
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 0.1,
+     "kwh": 3.1,
+     "utilization": 0.133
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 0.1,
+     "kwh": 3.1,
+     "utilization": 0.086
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 0.1,
+     "kwh": 3.1,
+     "utilization": 0.083
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 0.1,
+     "kwh": 3.3,
+     "utilization": 0.086
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 0.3,
+     "kwh": 5.4,
+     "utilization": 0.102
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 0.4,
+     "kwh": 12.8,
+     "utilization": 0.145
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 0.5,
+     "kwh": 17.1,
+     "utilization": 0.204
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 0.8,
+     "kwh": 19.6,
+     "utilization": 0.289
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 1.0,
+     "kwh": 17.0,
+     "utilization": 0.415
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 1.3,
+     "kwh": 29.3,
+     "utilization": 0.553
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 0.7,
+     "kwh": 12.2,
+     "utilization": 0.637
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 0.6,
+     "kwh": 21.7,
+     "utilization": 0.656
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.2,
+     "kwh": 7.3,
+     "utilization": 0.59
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 1.3,
+    "current_chargers": 6,
+    "estimated_additional_chargers": 2,
+    "message": "Additional charging capacity may be considered for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Evening peak in forecast window",
+    "Decreasing recent demand (-22% vs previous week)",
+    "Predicted peak utilization near/above capacity"
+   ],
+   "hotspot_id": "H2"
+  },
+  "S11": {
+   "station_id": "S11",
+   "location_name": "Business Tower",
+   "latitude": 13.078,
+   "longitude": 80.245,
+   "station_type": "workplace",
+   "chargers": 14,
+   "avg_duration_h": 6.48,
+   "current_utilization": 0.108,
+   "historical_mean_utilization": 0.471,
+   "predicted_sessions_24h": 16,
+   "predicted_energy_kwh_24h": 502.7,
+   "peak_sessions": 2.1,
+   "peak_hour": "8 AM",
+   "peak_window": "8 AM \u2013 12 PM",
+   "peak_occupancy": 10.84,
+   "peak_utilization": 0.774,
+   "mean_utilization_24h": 0.293,
+   "congestion": "MEDIUM",
+   "congestion_level": 1,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 14,
+    "historical_avg_sessions_per_day": 24.5,
+    "score": 0.527,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.1,
+     "kwh": 2.4,
+     "utilization": 0.074
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.3,
+     "kwh": 17.1,
+     "utilization": 0.087
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.1,
+     "kwh": 2.4,
+     "utilization": 0.101
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.2,
+     "kwh": 5.9,
+     "utilization": 0.11
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.2,
+     "kwh": 4.6,
+     "utilization": 0.085
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.4,
+     "kwh": 8.9,
+     "utilization": 0.069
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 0.4,
+     "kwh": 8.2,
+     "utilization": 0.091
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 0.8,
+     "kwh": 40.5,
+     "utilization": 0.12
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 2.1,
+     "kwh": 60.3,
+     "utilization": 0.21
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 1.9,
+     "kwh": 63.9,
+     "utilization": 0.344
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 2.1,
+     "kwh": 60.6,
+     "utilization": 0.476
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 2.1,
+     "kwh": 62.0,
+     "utilization": 0.606
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 1.6,
+     "kwh": 41.5,
+     "utilization": 0.712
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 1.4,
+     "kwh": 39.6,
+     "utilization": 0.774
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 0.8,
+     "kwh": 26.4,
+     "utilization": 0.746
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 0.6,
+     "kwh": 16.4,
+     "utilization": 0.651
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 0.4,
+     "kwh": 10.5,
+     "utilization": 0.542
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 0.2,
+     "kwh": 5.2,
+     "utilization": 0.412
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 0.1,
+     "kwh": 5.0,
+     "utilization": 0.293
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 0.1,
+     "kwh": 4.0,
+     "utilization": 0.197
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 0.1,
+     "kwh": 3.6,
+     "utilization": 0.127
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 0.1,
+     "kwh": 3.9,
+     "utilization": 0.086
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 0.3,
+     "kwh": 7.2,
+     "utilization": 0.065
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.1,
+     "kwh": 2.4,
+     "utilization": 0.058
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 2.1,
+    "current_chargers": 14,
+    "estimated_additional_chargers": 0,
+    "message": "Current capacity appears sufficient for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Morning peak in forecast window",
+    "Decreasing recent demand (-16% vs previous week)"
+   ]
+  },
+  "S12": {
+   "station_id": "S12",
+   "location_name": "Harbour Point",
+   "latitude": 13.1,
+   "longitude": 80.3,
+   "station_type": "retail",
+   "chargers": 8,
+   "avg_duration_h": 1.4,
+   "current_utilization": 0.378,
+   "historical_mean_utilization": 0.306,
+   "predicted_sessions_24h": 54,
+   "predicted_energy_kwh_24h": 364.7,
+   "peak_sessions": 4.8,
+   "peak_hour": "3 PM",
+   "peak_window": "11 AM \u2013 7 PM",
+   "peak_occupancy": 4.17,
+   "peak_utilization": 0.522,
+   "mean_utilization_24h": 0.256,
+   "congestion": "MEDIUM",
+   "congestion_level": 1,
+   "anomaly": {
+    "flag": false,
+    "date": "2025-06-28",
+    "observed_sessions": 51,
+    "historical_avg_sessions_per_day": 42.1,
+    "score": 0.475,
+    "message": "No unusual pattern detected on the latest day."
+   },
+   "forecast": [
+    {
+     "timestamp": "2025-06-29 00:00:00",
+     "hour_label": "12 AM",
+     "sessions": 0.5,
+     "kwh": 6.2,
+     "utilization": 0.08
+    },
+    {
+     "timestamp": "2025-06-29 01:00:00",
+     "hour_label": "1 AM",
+     "sessions": 0.2,
+     "kwh": 2.2,
+     "utilization": 0.039
+    },
+    {
+     "timestamp": "2025-06-29 02:00:00",
+     "hour_label": "2 AM",
+     "sessions": 0.2,
+     "kwh": 2.3,
+     "utilization": 0.026
+    },
+    {
+     "timestamp": "2025-06-29 03:00:00",
+     "hour_label": "3 AM",
+     "sessions": 0.4,
+     "kwh": 2.3,
+     "utilization": 0.035
+    },
+    {
+     "timestamp": "2025-06-29 04:00:00",
+     "hour_label": "4 AM",
+     "sessions": 0.3,
+     "kwh": 3.5,
+     "utilization": 0.039
+    },
+    {
+     "timestamp": "2025-06-29 05:00:00",
+     "hour_label": "5 AM",
+     "sessions": 0.7,
+     "kwh": 4.7,
+     "utilization": 0.057
+    },
+    {
+     "timestamp": "2025-06-29 06:00:00",
+     "hour_label": "6 AM",
+     "sessions": 1.2,
+     "kwh": 10.8,
+     "utilization": 0.108
+    },
+    {
+     "timestamp": "2025-06-29 07:00:00",
+     "hour_label": "7 AM",
+     "sessions": 1.8,
+     "kwh": 15.5,
+     "utilization": 0.17
+    },
+    {
+     "timestamp": "2025-06-29 08:00:00",
+     "hour_label": "8 AM",
+     "sessions": 2.0,
+     "kwh": 12.6,
+     "utilization": 0.213
+    },
+    {
+     "timestamp": "2025-06-29 09:00:00",
+     "hour_label": "9 AM",
+     "sessions": 2.3,
+     "kwh": 15.0,
+     "utilization": 0.241
+    },
+    {
+     "timestamp": "2025-06-29 10:00:00",
+     "hour_label": "10 AM",
+     "sessions": 2.8,
+     "kwh": 23.1,
+     "utilization": 0.29
+    },
+    {
+     "timestamp": "2025-06-29 11:00:00",
+     "hour_label": "11 AM",
+     "sessions": 3.7,
+     "kwh": 23.5,
+     "utilization": 0.372
+    },
+    {
+     "timestamp": "2025-06-29 12:00:00",
+     "hour_label": "12 PM",
+     "sessions": 3.9,
+     "kwh": 23.3,
+     "utilization": 0.426
+    },
+    {
+     "timestamp": "2025-06-29 13:00:00",
+     "hour_label": "1 PM",
+     "sessions": 4.2,
+     "kwh": 28.9,
+     "utilization": 0.453
+    },
+    {
+     "timestamp": "2025-06-29 14:00:00",
+     "hour_label": "2 PM",
+     "sessions": 3.8,
+     "kwh": 17.1,
+     "utilization": 0.446
+    },
+    {
+     "timestamp": "2025-06-29 15:00:00",
+     "hour_label": "3 PM",
+     "sessions": 4.8,
+     "kwh": 24.2,
+     "utilization": 0.488
+    },
+    {
+     "timestamp": "2025-06-29 16:00:00",
+     "hour_label": "4 PM",
+     "sessions": 4.6,
+     "kwh": 28.0,
+     "utilization": 0.522
+    },
+    {
+     "timestamp": "2025-06-29 17:00:00",
+     "hour_label": "5 PM",
+     "sessions": 4.3,
+     "kwh": 23.7,
+     "utilization": 0.495
+    },
+    {
+     "timestamp": "2025-06-29 18:00:00",
+     "hour_label": "6 PM",
+     "sessions": 4.7,
+     "kwh": 30.4,
+     "utilization": 0.507
+    },
+    {
+     "timestamp": "2025-06-29 19:00:00",
+     "hour_label": "7 PM",
+     "sessions": 3.1,
+     "kwh": 24.7,
+     "utilization": 0.426
+    },
+    {
+     "timestamp": "2025-06-29 20:00:00",
+     "hour_label": "8 PM",
+     "sessions": 2.6,
+     "kwh": 23.0,
+     "utilization": 0.317
+    },
+    {
+     "timestamp": "2025-06-29 21:00:00",
+     "hour_label": "9 PM",
+     "sessions": 1.4,
+     "kwh": 14.3,
+     "utilization": 0.221
+    },
+    {
+     "timestamp": "2025-06-29 22:00:00",
+     "hour_label": "10 PM",
+     "sessions": 0.6,
+     "kwh": 2.8,
+     "utilization": 0.107
+    },
+    {
+     "timestamp": "2025-06-29 23:00:00",
+     "hour_label": "11 PM",
+     "sessions": 0.4,
+     "kwh": 2.3,
+     "utilization": 0.053
+    }
+   ],
+   "capacity": {
+    "peak_predicted_sessions_per_hour": 4.8,
+    "current_chargers": 8,
+    "estimated_additional_chargers": 0,
+    "message": "Current capacity appears sufficient for the predicted peak period.",
+    "disclaimer": "Model-based planning estimate (target peak utilization 80%), not an engineering guarantee."
+   },
+   "factors": [
+    "Evening peak in forecast window",
+    "Decreasing recent demand (-6% vs previous week)",
+    "High recent demand vs station history"
+   ]
+  }
+ },
+ "hotspots": [
+  {
+   "hotspot_id": "H2",
+   "latitude": 13.113863636363634,
+   "longitude": 80.29136363636364,
+   "radius_km": 3.84,
+   "stations": [
+    "S05",
+    "S10"
+   ],
+   "predicted_sessions_24h": 33,
+   "predicted_energy_kwh_24h": 850.5,
+   "message": "High predicted demand is concentrated in this geographical area."
+  },
+  {
+   "hotspot_id": "H1",
+   "latitude": 13.047628571428573,
+   "longitude": 80.22973214285715,
+   "radius_km": 3.47,
+   "stations": [
+    "S03",
+    "S06"
+   ],
+   "predicted_sessions_24h": 28,
+   "predicted_energy_kwh_24h": 641.5,
+   "message": "High predicted demand is concentrated in this geographical area."
+  }
+ ],
+ "density": [
+  {
+   "latitude": 13.0827,
+   "longitude": 80.2707,
+   "weight": 0.1679
+  },
+  {
+   "latitude": 13.1067,
+   "longitude": 80.2206,
+   "weight": 0.048
+  },
+  {
+   "latitude": 13.0569,
+   "longitude": 80.2425,
+   "weight": 0.0408
+  },
+  {
+   "latitude": 13.0012,
+   "longitude": 80.2565,
+   "weight": 0.1679
+  },
+  {
+   "latitude": 13.1215,
+   "longitude": 80.287,
+   "weight": 0.06
+  },
+  {
+   "latitude": 13.0333,
+   "longitude": 80.21,
+   "weight": 0.0264
+  },
+  {
+   "latitude": 13.071,
+   "longitude": 80.26,
+   "weight": 0.1055
+  },
+  {
+   "latitude": 13.045,
+   "longitude": 80.295,
+   "weight": 0.0264
+  },
+  {
+   "latitude": 13.14,
+   "longitude": 80.23,
+   "weight": 0.1703
+  },
+  {
+   "latitude": 13.09,
+   "longitude": 80.305,
+   "weight": 0.0192
+  },
+  {
+   "latitude": 13.078,
+   "longitude": 80.245,
+   "weight": 0.0384
+  },
+  {
+   "latitude": 13.1,
+   "longitude": 80.3,
+   "weight": 0.1295
+  }
+ ],
+ "model_metrics_file": "reports/final/metrics.json"
+}

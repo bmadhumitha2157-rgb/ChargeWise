@@ -1,0 +1,13 @@
+station_id,location_name,latitude,longitude,chargers,station_type,coordinate_source
+S01,Central Plaza Hub,13.0827,80.2707,12,retail,"DEMONSTRATION (fictional coordinates, not real stations)"
+S02,Tech Park North,13.1067,80.2206,16,workplace,"DEMONSTRATION (fictional coordinates, not real stations)"
+S03,Riverside Residency,13.0569,80.2425,8,residential,"DEMONSTRATION (fictional coordinates, not real stations)"
+S04,Airport Road Stop,13.0012,80.2565,10,retail,"DEMONSTRATION (fictional coordinates, not real stations)"
+S05,Industrial Estate,13.1215,80.287,14,workplace,"DEMONSTRATION (fictional coordinates, not real stations)"
+S06,Lakeview Apartments,13.0333,80.21,6,residential,"DEMONSTRATION (fictional coordinates, not real stations)"
+S07,Market Street,13.071,80.26,8,retail,"DEMONSTRATION (fictional coordinates, not real stations)"
+S08,University Gate,13.045,80.295,10,workplace,"DEMONSTRATION (fictional coordinates, not real stations)"
+S09,Highway Junction,13.14,80.23,12,retail,"DEMONSTRATION (fictional coordinates, not real stations)"
+S10,Garden Colony,13.09,80.305,6,residential,"DEMONSTRATION (fictional coordinates, not real stations)"
+S11,Business Tower,13.078,80.245,14,workplace,"DEMONSTRATION (fictional coordinates, not real stations)"
+S12,Harbour Point,13.1,80.3,8,retail,"DEMONSTRATION (fictional coordinates, not real stations)"

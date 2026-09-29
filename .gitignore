@@ -1,0 +1,16 @@
+node_modules/
+.venv/
+venv/
+.env
+frontend/.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+cache/
+build/
+dist/
+.DS_Store
+*.log
+# large raw datasets (real ACN-Data downloads): keep out of git
+data/raw/*
+!data/raw/.gitkeep
